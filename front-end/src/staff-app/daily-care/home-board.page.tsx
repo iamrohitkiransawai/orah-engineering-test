@@ -102,7 +102,6 @@ const Toolbar: React.FC<ToolbarProps> = (props) => {
               placeholder="Search"
               value={searchValue}
               onChange={handleSearchChange}
-              color={"warning"}
               InputProps={{
                 endAdornment: (
                   <InputAdornment position="end">
